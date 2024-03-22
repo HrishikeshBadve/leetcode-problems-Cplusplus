@@ -15,13 +15,12 @@ Explanation: You are given the second node with value 5, the linked list should 
 */
 
 /**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode(int x) : val(x), next(NULL) {}
- * };
- */
+Definition for singly-linked list.
+struct ListNode {
+    int val;
+    ListNode *next;
+};
+*/
 class Solution {
 public:
     void deleteNode(ListNode* node) {
